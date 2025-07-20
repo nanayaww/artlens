@@ -41,7 +41,7 @@ export default function Footer() {
       </div>
       <hr className=" opacity-30" />
       <div className=" w-full text-center p-2">
-        <p>Copyright &copy; {`${getYear}`}</p>
+        <p>Artlens Ventures &copy; {`${getYear}`}</p>
         <p className=" text-sm">
           <a href="https://storyset.com/work">Work illustrations by Storyset</a>
         </p>

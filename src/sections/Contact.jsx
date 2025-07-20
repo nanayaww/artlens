@@ -26,7 +26,9 @@ export default function Contact({ ref }) {
             className="h-40"
           />
         </div>
-        <Button className="w-1/2">Submit</Button>
+        <Button className="w-1/2 bg-black" onClick={(e) => e.preventDefault()}>
+          Submit
+        </Button>
       </form>
     </div>
   );
