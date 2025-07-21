@@ -131,3 +131,19 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  /* about us styles */
+  .aboutCard {
+    @apply max-w-70 px-5 py-3 bg-secondary border shadow-lg rounded-lg mb-5;
+  }
+
+  /* footer styles */
+  .footer-links {
+    @apply hover:underline cursor-pointer;
+  }
+
+  .socials {
+    @apply cursor-pointer;
+  }
+}

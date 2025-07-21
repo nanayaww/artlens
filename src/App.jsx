@@ -12,7 +12,7 @@ function App() {
   const aboutRef = useRef(null);
   const contactRef = useRef(null);
   return (
-    <div className="">
+    <div className=" ">
       <Navbar
         homeRef={homeRef}
         servicesRef={servicesRef}

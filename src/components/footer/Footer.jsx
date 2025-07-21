@@ -17,25 +17,29 @@ export default function Footer() {
                 placeholder="Email"
                 className="bg-secondary"
               />
-              <Button type="submit" variant="outline " className="bg-primary">
+              <Button
+                type="submit"
+                variant="outline "
+                className="bg-black cursor-pointer hover:bg-primary border border-white hover:border-none"
+              >
                 Subscribe
               </Button>
             </div>
           </div>
 
           <div className=" flex gap-1">
-            <FiInstagram size="1.5em" />
-            <FiTwitter size="1.5em" />
-            <FiFacebook size="1.5em" />
+            <FiInstagram className="socials" size="1.5em" />
+            <FiTwitter className="socials" size="1.5em" />
+            <FiFacebook className="socials" size="1.5em" />
           </div>
         </div>
         <div className=" pl-5">
           <h2 className=" text-lg font-medium mb-2">Company</h2>
           <div className=" flex flex-col gap-2 ">
-            <p>Home</p>
-            <p>Services</p>
-            <p>About</p>
-            <p>Contact</p>
+            <p className="footer-links">Home</p>
+            <p className="footer-links">Services</p>
+            <p className="footer-links">About</p>
+            <p className="footer-links">Contact</p>
           </div>
         </div>
       </div>

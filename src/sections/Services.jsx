@@ -50,10 +50,7 @@ const webCardDetails = [
 
 export default function Services({ ref }) {
   return (
-    <div
-      ref={ref}
-      className=" mt-10 flex flex-col items-center px-5 sm:mx-50 md:mx-20"
-    >
+    <div ref={ref} className=" mt-10 flex flex-col items-center px-5 ">
       <div className=" text-center mb-10">
         <h1 className=" text-3xl font-bold mb-5">Our Services</h1>
         <p className=" text-center max-w-2xl">
@@ -67,7 +64,7 @@ export default function Services({ ref }) {
         <h2 className="duration-300 block text-2xl font-m font-bold cursor-pointer relative overflow-hidden after:h-[3px] after:w-1/4  after:bottom-0 after:right-full after:bg-black after:absolute hover:after:translate-x-full after:duration-300 mb-5 pb-1">
           Branding & Logo Design
         </h2>
-        <div className=" sm:flex gap-5">
+        <div className=" sm:flex gap-5 sm:gap-20">
           {brandCardDetails.map((item, index) => (
             <Card
               key={index}
@@ -82,7 +79,7 @@ export default function Services({ ref }) {
         <h2 className="duration-300 block text-2xl font-m font-bold cursor-pointer relative overflow-hidden after:h-[3px] after:w-1/4  after:bottom-0 after:right-full after:bg-black after:absolute hover:after:translate-x-full after:duration-300 mb-5 pb-1">
           Website Design & Development
         </h2>
-        <div className=" w-full  sm:flex gap-5">
+        <div className=" sm:flex gap-5 sm:gap-20">
           {webCardDetails.map((item, index) => (
             <Card
               key={index}
